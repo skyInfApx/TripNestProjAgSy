@@ -1,0 +1,162 @@
+# =========================================================
+# TripNest - Global .gitignore
+# M1 - M4
+# =========================================================
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# IDEs
+# =========================
+
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# =========================
+# Frontend - React / Vite
+# =========================
+
+code_Frontend/node_modules/
+code_Frontend/dist/
+code_Frontend/dist-ssr/
+
+# Frontend environment / secrets
+code_Frontend/.env
+code_Frontend/.env.local
+code_Frontend/.env.*.local
+
+# Frontend logs
+code_Frontend/npm-debug.log*
+code_Frontend/yarn-debug.log*
+code_Frontend/yarn-error.log*
+code_Frontend/pnpm-debug.log*
+code_Frontend/lerna-debug.log*
+
+# =========================
+# Backend - Spring Boot / Maven
+# =========================
+
+code_Backend/target/
+code_Backend/*.class
+
+# Keep Maven wrapper files
+# Do NOT ignore code_Backend/.mvn/
+
+# Backend environment / secrets
+code_Backend/.env
+code_Backend/.env.*
+code_Backend/application-local.properties
+
+# Backend logs
+code_Backend/*.log
+
+# =========================
+# General logs
+# =========================
+
+*.log
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+
+# Maven
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Build
+build/
+
+# Environment / secrets
+.env
+.env.*
+application-local.properties
+
+# Logs
+*.log
+
+
+# =========================
+# FRONTEND - REACT
+# =========================
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+dist-ssr/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
